@@ -1,22 +1,33 @@
 package abletheabove.chrome_scape;
 
-import org.lwjgl.*;
-import org.lwjgl.glfw.*;
-import org.lwjgl.opengl.*;
-import org.lwjgl.system.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import org.lwjgl.glfw.GLFWErrorCallback;
+import org.lwjgl.glfw.GLFWVidMode;
+import org.lwjgl.opengl.GL;
+import org.lwjgl.system.MemoryStack;
 
-import java.nio.*;
+//import abletheabove.chrome_scape.base.Json_Parser;
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.util.Scanner; // Import the Scanner class to read text files
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.nio.IntBuffer;
+import java.util.Scanner;
 
-import static org.lwjgl.glfw.Callbacks.*;
+import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
-import static org.lwjgl.system.MemoryStack.*;
-import static org.lwjgl.system.MemoryUtil.*;
+import static org.lwjgl.system.MemoryStack.stackPush;
+import static org.lwjgl.system.MemoryUtil.NULL;
 
 public class Main {
 
     String version="0.1.0";
-    CharSequence window_title = ""+version;
+    CharSequence window_title = "Chrome-Scape "+version;
     // The window handle
     private long window;
 
@@ -38,6 +49,9 @@ public class Main {
     }
 
     private void init() {
+        Json_Parser myObj = new Json_Parser();
+        System.out.println(myObj.vsync);
+
         // Setup an error callback. The default implementation
         // will print the error message in System.err.
         GLFWErrorCallback.createPrint(System.err).set();
@@ -52,7 +66,7 @@ public class Main {
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE); // the window will be resizable
 
         // Create the window
-        window = glfwCreateWindow(300, 300, window_title, NULL, NULL);
+        window = glfwCreateWindow(800, 600, window_title, NULL, NULL);
         if ( window == NULL )
             throw new RuntimeException("Failed to create the GLFW window");
 
@@ -84,7 +98,8 @@ public class Main {
         // Make the OpenGL context current
         glfwMakeContextCurrent(window);
         // Enable v-sync
-        glfwSwapInterval(1);
+
+        glfwSwapInterval(myObj.vsync);
 
         // Make the window visible
         glfwShowWindow(window);
@@ -99,7 +114,7 @@ public class Main {
         GL.createCapabilities();
 
         // Set the clear color
-        glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
+        glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
         // Run the rendering loop until the user has attempted to close
         // the window or has pressed the ESCAPE key.
@@ -118,4 +133,73 @@ public class Main {
         new Main().run();
     }
 
+}
+
+
+
+
+//TODO: Clean up this file
+class Json_Parser  {
+    public String data;
+    public String Bruh;
+    public int vsync;
+
+    public void main(String[] args) {
+        {
+
+            try {
+                File myObj = new File("config.json");
+                Scanner myReader = new Scanner(myObj);
+                while (myReader.hasNextLine()) {
+                    data = myReader.nextLine();
+
+                }
+                myReader.close();
+            } catch (FileNotFoundException e) {
+                System.out.println("An error occurred.");
+                e.printStackTrace();
+            }
+        }
+
+        String jsonString = data;
+        Bruh=data;
+        GsonBuilder builder = new GsonBuilder();
+        builder.setPrettyPrinting();
+
+        Gson gson = builder.create();
+        config_setup student = gson.fromJson(jsonString, config_setup.class);
+        System.out.println(student);
+
+        jsonString = gson.toJson(student);
+        System.out.println(jsonString);
+        return;
+
+
+    }
+}
+
+class config_setup {
+    public boolean vsync;
+    private int age;
+    public config_setup(){}
+
+    public Boolean getVsync() {
+        return vsync;
+    }
+
+    public void setName() {
+        this.vsync = vsync;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String toString() {
+        return "Config [ vsync: "+vsync+ " ]";
+    }
 }

@@ -1,0 +1,6 @@
+{
+  "vsync": true,
+  "keybinds": {
+    "key_forward":"w"
+  }
+}

@@ -31,8 +31,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowAnt.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.8.6.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28390804" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -43,6 +43,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Json_Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abletheabove.chrome_scape.base.Json_Parser" />
+      <module name="ChromeScape" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abletheabove.chrome_scape.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abletheabove.chrome_scape.Main" />
       <module name="ChromeScape" />
@@ -50,17 +63,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abletheabove.chrome_scape.Introduction" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abletheabove.chrome_scape.base.test" />
       <module name="ChromeScape" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abletheabove.chrome_scape.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Json_Parser" />
+      <item itemvalue="Application.test" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Json_Parser" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,10 +107,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1582990074591" />
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583550685846">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583746959800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583550685846" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583746959800" />
     <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582999732982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -93,10 +119,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583550680153" />
-    <state x="502" y="199" key="FileChooserDialogImpl" timestamp="1583548908032">
+    <state x="502" y="199" key="FileChooserDialogImpl" timestamp="1583746391430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="502" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583548908032" />
+    <state x="502" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583746391430" />
     <state x="509" y="280" key="Github.CreateGistDialog" timestamp="1582993012379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -105,22 +131,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="552" y="261" width="546" height="205" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1582994655887" />
-    <state width="692" height="168" key="GridCell.Tab.0.bottom" timestamp="1583742678018">
+    <state width="876" height="168" key="GridCell.Tab.0.bottom" timestamp="1583750037508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="692" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583742678018" />
-    <state width="692" height="168" key="GridCell.Tab.0.center" timestamp="1583742678016">
+    <state width="876" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583750037508" />
+    <state width="876" height="168" key="GridCell.Tab.0.center" timestamp="1583750037508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="692" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583742678016" />
-    <state width="692" height="168" key="GridCell.Tab.0.left" timestamp="1583742678016">
+    <state width="876" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583750037508" />
+    <state width="876" height="168" key="GridCell.Tab.0.left" timestamp="1583750037508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="692" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583742678016" />
-    <state width="692" height="168" key="GridCell.Tab.0.right" timestamp="1583742678018">
+    <state width="876" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583750037508" />
+    <state width="876" height="168" key="GridCell.Tab.0.right" timestamp="1583750037508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="692" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583742678018" />
+    <state width="876" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583750037508" />
     <state width="664" height="211" key="GridCell.Tab.1.bottom" timestamp="1583550941583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -137,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="664" height="211" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583550941583" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1582998274485">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583746484165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582998274485" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583746484165" />
     <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1582994848240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -153,5 +179,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1583742766502" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/abletheabove/chrome_scape/base/test.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
