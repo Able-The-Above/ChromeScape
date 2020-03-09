@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="312627df-e478-45bc-9e82-39d54316db3c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ChromeScape" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b4bcdc19-aa59-4264-931f-0d2eb161d933" />
+  </component>
+  <component name="ProjectId" id="1YUF7CtgBnD19xjTF203h2RQ4pK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowAnt.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28390804" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\ChromeScape" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abletheabove.chrome_scape.Main" />
+      <module name="ChromeScape" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abletheabove.chrome_scape.Introduction" />
+      <module name="ChromeScape" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="312627df-e478-45bc-9e82-39d54316db3c" name="Default Changelist" comment="" />
+      <created>1582989096871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582989096871</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Notifications" timestamp="1582992809757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1582992809757" />
+    <state x="275" y="24" key="#Project_Structure" timestamp="1582990074591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1582990074591" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583550685846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583550685846" />
+    <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582999732982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="71" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1582999732982" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583550680153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583550680153" />
+    <state x="502" y="199" key="FileChooserDialogImpl" timestamp="1583548908032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="502" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583548908032" />
+    <state x="509" y="280" key="Github.CreateGistDialog" timestamp="1582993012379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="509" y="280" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1582993012379" />
+    <state x="552" y="261" width="546" height="205" key="Github.ShareDialog" timestamp="1582994655887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="552" y="261" width="546" height="205" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1582994655887" />
+    <state width="664" height="211" key="GridCell.Tab.0.bottom" timestamp="1583550941582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583550941582" />
+    <state width="664" height="211" key="GridCell.Tab.0.center" timestamp="1583550941581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583550941581" />
+    <state width="664" height="211" key="GridCell.Tab.0.left" timestamp="1583550941581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583550941581" />
+    <state width="664" height="211" key="GridCell.Tab.0.right" timestamp="1583550941581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583550941581" />
+    <state width="664" height="211" key="GridCell.Tab.1.bottom" timestamp="1583550941583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583550941583" />
+    <state width="664" height="211" key="GridCell.Tab.1.center" timestamp="1583550941583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583550941583" />
+    <state width="664" height="211" key="GridCell.Tab.1.left" timestamp="1583550941582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583550941582" />
+    <state width="664" height="211" key="GridCell.Tab.1.right" timestamp="1583550941583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="664" height="211" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583550941583" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1582998274485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582998274485" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1582994848240">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582994848240" />
+    <state x="420" y="296" width="585" height="334" key="com.intellij.ide.util.TipDialog" timestamp="1583741448581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="420" y="296" width="585" height="334" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583741448581" />
+  </component>
+</project>
